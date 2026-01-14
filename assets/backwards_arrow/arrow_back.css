@@ -1,0 +1,50 @@
+
+
+.backwards_arrow-a{
+    display: flex;
+    margin: 0rem;
+    padding: 0rem;
+    position: fixed;
+    text-decoration: none;
+    bottom: 1rem;
+    right: 1rem;
+    background: #f6f6f6d3;
+    border-radius: 1rem;
+    border: solid 0.1rem black;
+
+    
+}
+
+
+.backwards_arrow-a:hover{
+    cursor:pointer;
+    background-color: #d2d2d2d3;  
+}
+
+
+
+.backwards_arrow-div{
+    display: flex;
+    align-items: center;
+    margin: 0rem;
+    padding-inline: 1rem;
+    gap: 1rem;
+    font-family:'Segoe UI', sans-serif;
+}
+.backwards_arrow-p{
+    font-size: 1.1rem;
+    color: black;
+}
+
+
+.img{
+    display: flex;
+    max-width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+.backwards_arrow-img{
+    width: 3rem;
+}
+

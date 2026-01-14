@@ -1,0 +1,61 @@
+
+body{
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+header{
+    display:flex;
+    padding: 1.7rem;
+    background-color: #6E8898;
+    align-items: center;
+    gap: 1.5rem;
+    margin: 0px;
+    border-bottom: solid 0.25rem black
+}
+
+span{
+    font-size: 1.5rem;
+    font-weight:bold;
+}
+
+ul{
+    display:flex;
+    gap: 1rem;
+    list-style: none;
+    font-weight: bold;
+    font-size: 1.1rem;
+}
+
+li{
+    font-size: 1.1rem;
+    background-color:rgb(248, 247, 247);
+    padding: 1rem;
+    border: solid 0.1rem black;
+    border-radius: 1rem;
+    
+}
+li:hover{
+    background-color: rgb(226, 241, 254);
+    cursor:pointer;
+}
+
+
+.a-chapter2{
+    color: rgb(81, 81, 255);
+    
+}
+
+a{
+    color: black;
+    text-decoration: none;
+}
+
+
+/* Main */
+
+main{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 1.5rem;
+    background-color: rgb(248, 247, 247);
+}

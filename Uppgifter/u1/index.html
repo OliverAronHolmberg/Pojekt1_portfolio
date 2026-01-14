@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Hello World!</title>
+    <link rel="stylesheet" href="../../assets/backwards_arrow/arrow_back.css">
+
+    <style>
+        /* intern css */
+
+        body{
+            font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+            background-color: #f6f6f6;
+
+            Font-size: 1.2em; /* 16px */
+        }
+
+        h1{
+            margin-left: 1rem
+        }
+
+        p{
+            color: #3a3a3a; /*Color är en css egenskap och värdet som är efter : är värdet*/
+            margin-left: 1rem
+        }
+        
+        section{
+            background-color: lightblue;
+
+            padding: 0.1em 1rem;
+
+            border: 5px solid black;
+
+            margin-bottom: 1rem;
+
+            border-radius: 1rem;
+        }
+
+        .special{ /*När det är en class måste man skriva punkt före klassnamnet*/
+            background-color: wheat;
+        }
+
+        
+
+
+        
+        
+
+
+
+
+        
+
+        
+
+    </style>
+</head>
+<body>
+    <header>
+        <!-- Det som angår hela sidan eller information om sidan som följer -->
+        
+        <!--Heading:
+        h1, h2, h3, h4, h5, h6-->
+        
+        <h1>Hello World!</h1> <!-- Element, andvänd aldrig mer än en h1 på en hemsida -->
+        <p>Information jag vill att sidan ska visa</p> <!-- Paragraph -->
+        
+
+    </header>
+
+    <main> <!-- Allt innehåll och det du vill visa på denna html sida-->
+        <h2>Grundläggande element</h2>
+        <section>
+            <h2>Meta</h2>
+            <p>HTML : Huvudelement som innehåller htmlfilen</p>
+            <p>Head : En contianer för metadata, data om data</p>
+            <p>Meta : Finns för att ge data om stuktur</p>
+            <p>Title : Titeln/namnet på hemsidan</p>
+            <p>Style : Innehåller css-stilen på hemsidan</p>
+        </section>
+        <section
+        class="special">
+            <h2>Design/Innehåll</h2>
+            <p>Body : Documentets body</p>
+            <p>Header : Sidhuvud ineehåller information om hemsidan</p>
+            <p>Main : innehållet på sidan, innehåller flera sections</p>
+            <p>Section : En del av dokumentet</p>
+            <p>Footer : Innehållet på slutet av sidan, som länkar</p>
+            
+        </section>  
+        <section
+        class="special">
+            <h2>Text och Rubriker</h2>
+            <p>h1-6 : Headers i olika storlekar, rubriker med andra ord</p>
+            <p>p : Paragraph element/brödtext</p>
+            
+            
+        </section>  
+        
+        <a class="backwards_arrow-a" href="../../index.html">
+            <div class="backwards_arrow-div">
+                <img src="../../assets/backwards_arrow/arrow_back.png" class="backwards_arrow-img" alt="Arrow to home page">
+                <p class="backwards_arrow-p">Back to Home</p>
+            </div>
+        </a>
+        
+        
+        
+    </main>
+
+    <footer><!-- I websidor finns ofta länkar och eller copyright information -->
+        
+    </footer>
+</body>
+</html>
+
