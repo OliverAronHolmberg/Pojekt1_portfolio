@@ -55,18 +55,22 @@ body {
    font-family: var(--ff-secondary);
    font-size: var(--menu-item-size);
 }
-
-nav {
-
+header{
    position: sticky;
+}
+nav {
+   
+   position: fixed;
    top: 0;
+   width: 100vw;
 
    display: flex;
-   justify-content: start;
+   justify-content: space-between;
+   
+   
    align-items: center;
 
-
-   gap: calc(var(--menu-item-size) + 3em);
+   
    padding: calc(var(--menu-item-size) / 4) calc(var(--menu-item-size) * 2);
 
    background: var(--clr-navbar);
@@ -331,10 +335,22 @@ RESPONSIVITET
    }
 
    nav {
-      justify-content: space-between;
+      position: fixed;
+      top: 0;
+      width:100%;
+      height: auto;
 
-      width: 100%;
-      padding: calc(var(--menu-item-size) / 1.5) 1rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+
+      gap: calc(var(--menu-item-size) + 3em);
+      padding: calc(var(--menu-item-size) / 4) calc(var(--menu-item-size) * 2);
+
+      background: var(--clr-navbar);
+      box-shadow: var(--clr-navbar-shadow);
+
+      z-index: 1;
    }
 
 
@@ -405,11 +421,22 @@ html{
   gap: 5rem;
 }
 
+
+.profile-wrapper{
+   width: 70rem;
+   aspect-ratio: 1/1;
+   border-radius: 50%;
+   border: 0.4rem solid rgb(182, 182, 182);
+   overflow: hidden;
+}
+
+
 .profile-picture{
-  width: 20rem;
-  border: 0.4rem solid rgb(182, 182, 182);
-  border-radius: 50%;
-  
+   margin-top: -5%;
+   height: 118%;
+   object-fit: cover;
+   object-position: top;
+
 
 }
 
